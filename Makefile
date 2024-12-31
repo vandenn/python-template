@@ -14,4 +14,4 @@ lint:
 	venv/bin/pre-commit run --all-files
 
 run:
-	`which python3.11` src/main.py
+	venv/bin/python src/main.py
