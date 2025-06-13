@@ -1,7 +1,12 @@
-import os
-
 from dotenv import load_dotenv
+from pydantic import Field
+from pydantic_settings import BaseSettings
 
 load_dotenv()
 
-API_KEY = os.environ.get("API_KEY", "")
+
+class Settings(BaseSettings):
+    dummy_env_var: str = Field(default=...)
+
+
+settings = Settings()  # from settings import settings
