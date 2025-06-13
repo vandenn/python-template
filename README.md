@@ -14,10 +14,9 @@
 
 # 🛠 Setup
 
-Make sure you have Python 3.11 installed in your system, then run:
+Make sure you have `uv` installed in your system, then run:
 ```bash
 make init
-make setup
 make run
 ```
 (other setup here)
