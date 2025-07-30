@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from settings import settings
+from src.settings import settings
 
 if __name__ == "__main__":
     print("Hello world!")

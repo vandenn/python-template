@@ -8,4 +8,7 @@ lint:
 	uv tool run ruff format src
 
 run:
-	uv run src/main.py
+	uv run -m src.main
+
+streamlit:
+	uv run -m streamlit run src/streamlit_ui.py

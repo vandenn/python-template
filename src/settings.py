@@ -9,4 +9,4 @@ class Settings(BaseSettings):
     dummy_env_var: str = Field(default=...)
 
 
-settings = Settings()  # from settings import settings
+settings = Settings()  # from src.settings import settings
