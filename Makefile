@@ -1,4 +1,4 @@
-.PHONY: init setup run
+.PHONY: init lint run
 
 init:
 	uv tool run pre-commit install
