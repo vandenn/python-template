@@ -2,6 +2,7 @@
 
 init:
 	uv tool run pre-commit install
+	uv sync --dev
 
 lint:
 	uv tool run ruff check --fix src
